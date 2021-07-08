@@ -1,0 +1,25 @@
+import java.util.*;
+class A {
+ int arr[]=new int[5];
+  void getdata(){
+    Scanner s=new Scanner(System.in);
+    for(int i=1;i<5;i++)
+    {
+    
+     arr[i]=s.nextInt();
+    }
+    }
+  void display()
+  {
+    for(int i=1;i<5;i++)
+    {
+   System.out.println(arr[i]);
+    }
+    }                                
+class Bw{
+  public static void main(String args[]) {
+    A o = new A();
+    o.getdata();
+    o.display();
+  }
+ }    
